@@ -68,7 +68,7 @@ ul, li {
   list-style: none;
 }
 .item ul, li {
-   list-style: disc !important;
+   list-style: none !important;
 }
 header, nav, section, article, aside, footer, hgroup {
   display: block;
