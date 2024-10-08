@@ -137,6 +137,9 @@ https://templatemo.com/tm-591-villa-agency
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Room of 3</button>
                   </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Room of 4</button>
+                  </li>
                 </ul>
               </div>              
               <div class="tab-content" id="myTabContent">
@@ -145,9 +148,9 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
+                          <li>Price<span>1,200,000</span></li>
                           <li>space<span>Spacious</span></li>
                           <li>Breakfast & Dinner <span>Optional</span></li>
-                          <li>WiFi<span>Yes</span></li>
                           <li>Shuttle<span>Optional</span></li>
                           <li>Maintenance<span>Yes</span></li>
                         </ul>
@@ -262,9 +265,9 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
+                          <li>Price<span>955,000</span></li>
                           <li>space<span>Spacious</span></li>
                           <li>Breakfast & Dinner <span>Optional</span></li>
-                          <li>WiFi<span>Yes</span></li>
                           <li>Shuttle<span>Optional</span></li>
                           <li>Maintenance<span>Yes</span></li>
                         </ul>
@@ -378,9 +381,125 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
+                           <li>Price<span>850,000</span></li>
                           <li>space<span>Spacious</span></li>
                           <li>Breakfast & Dinner <span>Optional</span></li>
-                          <li>WiFi<span>Yes</span></li>
+                          <li>Shuttle<span>Optional</span></li>
+                          <li>Maintenance<span>Yes</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 100%; max-width: 600px; margin: 0 auto;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Zinty2.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Deal 01" onclick="openModal(0)">
+    </div>
+    <div class="carousel-item">
+      <img src="Zinty1.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Deal 02" onclick="openModal(1)">
+    </div>
+    <div class="carousel-item">
+      <img src="Zinty3.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Deal 03" onclick="openModal(2)">
+    </div>
+    <div class="carousel-item">
+      <img src="Zinty1.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Property 04" onclick="openModal(3)">
+    </div>
+    <div class="carousel-item">
+      <img src="Zinty2.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Property 05" onclick="openModal(4)">
+    </div>
+    <div class="carousel-item">
+      <img src="Zinty3.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Property 06" onclick="openModal(5)">
+    </div>
+  </div>
+  
+  <!-- Carousel controls for manual navigation -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev" style="filter: invert(1);">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next" style="filter: invert(1);">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Fullscreen modal carousel -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div id="fullscreenCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Zinty2.jpeg" class="d-block w-100" style="height: 70vh; object-fit: contain; margin-top: 70px;" alt="Deal 01">
+            </div>
+            <div class="carousel-item">
+              <img src="Zinty1.jpeg" class="d-block w-100" style="height: 70vh; object-fit: contain; margin-top: 70px;" alt="Deal 02">
+            </div>
+            <div class="carousel-item">
+              <img src="Zinty3.jpeg" class="d-block w-100" style="height: 70vh; object-fit: contain; margin-top: 70px;" alt="Deal 03">
+            </div>
+            <div class="carousel-item">
+              <img src="Zinty1.jpeg" class="d-block w-100" style="height: 70vh; object-fit: contain; margin-top: 70px;" alt="Property 04">
+            </div>
+            <div class="carousel-item">
+              <img src="Zinty2.jpeg" class="d-block w-100" style="height: 70vh; object-fit: contain; margin-top: 70px;" alt="Property 05">
+            </div>
+            <div class="carousel-item">
+              <img src="Zinty3.jpeg" class="d-block w-100" style="height: 70vh; object-fit: contain; margin-top: 70px;" alt="Property 06">
+            </div>
+          </div>
+          <!-- Fullscreen carousel controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#fullscreenCarousel" data-bs-slide="prev" style="color:black;">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#fullscreenCarousel" data-bs-slide="next" style="color:black;">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--<img src="assets/images/deal-01.jpg" alt="">-->
+ </div>
+                      <div class="col-lg-3">
+                      <h4>Detail Info About the Hostel</h4>
+                      <p>A beautiful serene student hostel just 10 minutes away from campus. Prices cover the different rooms available in our student houses, which may vary in size & design<br><br>We operate a strict no--refund policy once payments are made. See more info below.</p>
+                       <div>
+                        <a class="main-butto"style="margin-bottom: 20px;" > <!-- Margin for spacing -->
+        <a href="https://https://forms.gle/CwStyhreWV3FibfT8.gle/obhqZpcUXFkXBBEm6" style="
+            display: inline-block;
+            margin-top:20px;
+            margin-left:0px;
+            background-color: #1e1e1e; 
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px; 
+            padding: 0px 30px; 
+            line-height: 40px; 
+            border-radius: 10px; 
+            transition: all .3s; 
+            text-decoration: none; 
+        ">Book</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                           <li>Price<span>750,000</span></li>
+                          <li>space<span>Spacious</span></li>
+                          <li>Breakfast & Dinner <span>Optional</span></li>
                           <li>Shuttle<span>Optional</span></li>
                           <li>Maintenance<span>Yes</span></li>
                         </ul>
@@ -533,7 +652,7 @@ https://templatemo.com/tm-591-villa-agency
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                 Fee covers for; Gas, WiFi, paid utilities (electricity and water), back up: solar inverters, routine maintenance, matron, cleaning common areas, netflixx and youtube,washing machine,central fridge & freezer, microwave, furniture(Bed, sitting area, study area etc).
+                 Fee covers for; Gas, WiFi, paid utilities (electricity and water), back up: solar inverters, routine maintenance, matron, cleaning common areas,<br> netflixx and youtube,washing machine,central fridge & freezer, microwave, furniture(Bed, sitting area, study area etc).
               </div>
             </div>
           </div>
